@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link href="https://fonts.cdnfonts.com/css/ea-sports-covers-sc" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumo e Produção Sustentáveis</title>
+    <link rel="stylesheet" href="AGRINHO.css">
+</head>
+<body>
+    <header>
+        <h1>Consumo e Produção Sustentáveis</h1>
+        <nav>
+            <ul>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="#mapa">Mapa da Agricultura Familiar Educativa</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre">
+       <li>sim</li>
+        <section id="recursos">
+            <h2>Recursos</h2>
+            <ul>
+                <li>Artigos sobre consumo sustentável</li>
+                <li>Dicas para reduzir o desperdício de alimentos</li>
+                <li>Guia para identificar produtos locais e orgânicos</li>
+                <li>Vídeos educativos sobre agricultura familiar</li>
+            </ul>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para mais informações sobre consumo e produção sustentáveis.</p>
+            <p>Email: contato@sustentabilidade.com</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Consumo e Produção Sustentáveis</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
