@@ -1,0 +1,98 @@
+body {
+    font-family: 'EA Sports Covers SC', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1d351d;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* centraliza os botões */
+}
+
+nav ul li {
+    display: inline; /* torna os itens inline */
+    margin-right: 20px; /* espaço entre os botões */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* remove a margem do último botão */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.button,
+.button1,
+.button2,
+.button3 {
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    background: #1d351d;
+    background-size: 400%;
+    font-family: 'EA Sports Covers SC', sans-serif;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: inline-block; /* torna os botões lado a lado */
+    vertical-align: middle; /* alinha verticalmente com o texto */
+    margin-right: 10px; /* espaço entre os botões */
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.button:hover,
+.button1:hover,
+.button2:hover,
+.button3:hover {
+    background-color: #0a1d0a; /* cor de fundo ao passar o mouse */
+}
+
+.button .svgIcon {
+    height: 25px;
+    transition-duration: 1.5s;
+}
+
+.button:hover .svgIcon {
+    transform: rotate(250deg);
+    transition-duration: 1.5s;
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(
+      82.3deg,
+      rgba(0, 93, 0, 0) 10.8%,
+      rgba(0, 88, 0, 10) 94.3%
+    );
+    transition: all 0.475s;
+}
+
+.button:hover::before {
+    transform: scaleX(1);
+}
