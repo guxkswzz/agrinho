@@ -48,6 +48,9 @@ footer {
     bottom: 0;
     width: 100%;
 }
+body {
+    font-family: 'EA Sports Covers SC', sans-serif;
+}
 
 .button {
   position: relative;
