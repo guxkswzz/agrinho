@@ -106,16 +106,16 @@ body {
   cursor: pointer;
 }
 
-.button:hover::before {
+.button1:hover::before {
   transform: scaleX(1);
 }
 
-.button-content {
+.button1-content {
   position: relative;
   z-index: 1;
 }
 
-.button::before {
+.button1::before {
   content: "";
   position: absolute;
   top: 0;
@@ -146,16 +146,16 @@ body {
   cursor: pointer;
 }
 
-.button:hover::before {
+.button2:hover::before {
   transform: scaleX(1);
 }
 
-.button-content {
+.button2-content {
   position: relative;
   z-index: 1;
 }
 
-.button::before {
+.button2::before {
   content: "";
   position: absolute;
   top: 0;
@@ -186,16 +186,16 @@ body {
   cursor: pointer;
 }
 
-.button:hover::before {
+.button3:hover::before {
   transform: scaleX(1);
 }
 
-.button-content {
+.button3-content {
   position: relative;
   z-index: 1;
 }
 
-.button::before {
+.button3::before {
   content: "";
   position: absolute;
   top: 0;
