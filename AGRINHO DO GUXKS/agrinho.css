@@ -185,16 +185,16 @@ footer {
   cursor: pointer;
 }
 
-.button3:hover::before {
+.button3 :hover::before {
   transform: scaleX(1);
 }
 
-.button3-content {
+.button3 -content {
   position: relative;
   z-index: 1;
 }
 
-.button3::before {
+.button3 ::before {
   content: "";
   position: absolute;
   top: 0;
