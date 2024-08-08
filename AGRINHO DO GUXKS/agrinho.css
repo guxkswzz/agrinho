@@ -1,6 +1,6 @@
 AGRINHO.css
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'EA Sports Covers SC', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -47,10 +47,6 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-body {
-    font-family: 'EA Sports Covers SC', sans-serif;
 }
 
 .button {
@@ -106,16 +102,16 @@ body {
   cursor: pointer;
 }
 
-.button1:hover::before {
+.button1 :hover::before {
   transform: scaleX(1);
 }
 
-.button1-content {
+.button1 -content {
   position: relative;
   z-index: 1;
 }
 
-.button1::before {
+.button1 ::before {
   content: "";
   position: absolute;
   top: 0;
@@ -146,16 +142,16 @@ body {
   cursor: pointer;
 }
 
-.button2:hover::before {
+.button2 :hover::before {
   transform: scaleX(1);
 }
 
-.button2-content {
+.button2 -content {
   position: relative;
   z-index: 1;
 }
 
-.button2::before {
+.button2 ::before {
   content: "";
   position: absolute;
   top: 0;
@@ -186,16 +182,16 @@ body {
   cursor: pointer;
 }
 
-.button3:hover::before {
+.button3 :hover::before {
   transform: scaleX(1);
 }
 
-.button3-content {
+.button3 -content {
   position: relative;
   z-index: 1;
 }
 
-.button3::before {
+.button3 ::before {
   content: "";
   position: absolute;
   top: 0;
