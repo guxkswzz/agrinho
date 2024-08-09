@@ -1,8 +1,7 @@
-AGRINHO.css
+
 body {
     font-family: 'EA Sports Covers SC', sans-serif;
     margin: 0;
-    padding: 0;
 }
 
 header {
@@ -44,12 +43,9 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
+    position:fixed;
     bottom: 0;
     width: 100%;
-}
-body {
-    font-family: 'EA Sports Covers SC', sans-serif;
 }
 
 .button {
@@ -63,6 +59,7 @@ body {
   color: #fff;
   border: none;
   cursor: pointer;
+  font-family: 'EA Sports Covers SC', sans-serif;
 }
 
 .button:hover::before {
@@ -103,18 +100,19 @@ body {
   color: #fff;
   border: none;
   cursor: pointer;
+  font-family: 'EA Sports Covers SC', sans-serif;
 }
 
-.button1 :hover::before {
+.button1:hover::before {
   transform: scaleX(1);
 }
 
-.button1 -content {
+.button1-content {
   position: relative;
   z-index: 1;
 }
 
-.button1 ::before {
+.button1::before {
   content: "";
   position: absolute;
   top: 0;
@@ -144,6 +142,7 @@ body {
   color: #fff;
   border: none;
   cursor: pointer;
+  font-family: 'EA Sports Covers SC', sans-serif;
 }
 
 .button2:hover::before {
@@ -186,13 +185,14 @@ body {
   color: #fff;
   border: none;
   cursor: pointer;
+  font-family: 'EA Sports Covers SC', sans-serif;
 }
 
 .button3:hover::before {
   transform: scaleX(1);
 }
 
-.button33-content {
+.button3-content {
   position: relative;
   z-index: 1;
 }
