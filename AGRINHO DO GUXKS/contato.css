@@ -1,0 +1,219 @@
+
+body {
+    font-family: 'EA Sports Covers SC', sans-serif;
+    margin: 0;
+    background-image: url(https://st.depositphotos.com/1470939/3317/i/600/depositphotos_33174627-stock-photo-grunge-background-with-space-for.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+}
+
+header {
+    background-color: #1d351d;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    color: #4CAF50;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+.button {
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: #1d351d;
+  background-size: 400%;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-family: 'EA Sports Covers SC', sans-serif;
+}
+
+.button:hover::before {
+  transform: scaleX(1);
+}
+
+.button-content {
+  position: relative;
+  z-index: 1;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(
+    82.3deg,
+    rgba(0, 93, 0, 0) 10.8%,
+    rgba(0, 88, 0, 10) 94.3%
+  );
+  transition: all 0.475s;
+}
+
+.button1 {
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: #1d351d;
+  background-size: 400%;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-family: 'EA Sports Covers SC', sans-serif;
+}
+
+.button1:hover::before {
+  transform: scaleX(1);
+}
+
+.button1-content {
+  position: relative;
+  z-index: 1;
+}
+
+.button1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(
+    82.3deg,
+    rgba(0, 93, 0, 0) 10.8%,
+    rgba(0, 88, 0, 10) 94.3%
+  );
+  transition: all 0.475s;
+}
+
+/* From Uiverse.io by Madflows */ 
+.button2 {
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: #1d351d;
+  background-size: 400%;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-family: 'EA Sports Covers SC', sans-serif;
+}
+
+.button2:hover::before {
+  transform: scaleX(1);
+}
+
+.button2-content {
+  position: relative;
+  z-index: 1;
+}
+
+.button2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(
+    82.3deg,
+    rgba(0, 93, 0, 0) 10.8%,
+    rgba(0, 88, 0, 10) 94.3%
+  );
+  transition: all 0.475s;
+}
+
+
+/* From Uiverse.io by Madflows */ 
+.button3 {
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: #1d351d;
+  background-size: 400%;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-family: 'EA Sports Covers SC', sans-serif;
+}
+
+.button3:hover::before {
+  transform: scaleX(1);
+}
+
+.button3-content {
+  position: relative;
+  z-index: 1;
+}
+
+.button3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(
+    82.3deg,
+    rgba(0, 93, 0, 0) 10.8%,
+    rgba(0, 88, 0, 10) 94.3%
+  );
+  transition: all 0.475s;
+}
+

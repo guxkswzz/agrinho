@@ -2,6 +2,9 @@
 body {
     font-family: 'EA Sports Covers SC', sans-serif;
     margin: 0;
+    background-image: url(https://st.depositphotos.com/1470939/3317/i/600/depositphotos_33174627-stock-photo-grunge-background-with-space-for.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
 }
 
 header {
@@ -213,5 +216,10 @@ footer {
     rgba(0, 88, 0, 10) 94.3%
   );
   transition: all 0.475s;
+}
+
+.jogo1 {
+  padding-left: 20%;
+  padding-bottom: 1000%;
 }
 

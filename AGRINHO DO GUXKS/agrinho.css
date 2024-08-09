@@ -1,34 +1,51 @@
 
 body {
-    font-family: 'EA Sports Covers SC', sans-serif;
-    margin: 0;
+  font-family: 'EA Sports Covers SC', sans-serif;
+  margin: 0;
+  background-image: url(https://st.depositphotos.com/1470939/3317/i/600/depositphotos_33174627-stock-photo-grunge-background-with-space-for.jpg);
+  background-size: 100%;
+  background-repeat: repeat;
 }
 
 header {
-    background-color: #1d351d;
-    color: rgb(255, 255, 255);
-    padding: 20px;
-    text-align: center;
+  background-color: #1d351d;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
 }
 
-header h1 {
-    margin: 0;
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; 
+}
+
+.header-content h1 {
+  margin: 0;
+}
+
+.header-content .header-image {
+  width: 100px; 
+  height: auto; 
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+  display: inline;
+  margin-right: 20px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
+
 
 section {
     padding: 20px;
@@ -39,14 +56,16 @@ section h2 {
 }
 
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position:fixed;
-    bottom: 0;
-    width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  left: 0;
 }
+
 
 .button {
   position: relative;
@@ -214,4 +233,3 @@ footer {
   );
   transition: all 0.475s;
 }
-
