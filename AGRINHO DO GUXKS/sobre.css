@@ -256,6 +256,10 @@ footer {
     .quadro {
         width: calc(100% - 40px);
     }
+    footer {
+   height: 100px;
+width: 90%;
+}
 }
 
     
