@@ -251,3 +251,10 @@ footer {
   );
   transition: all 0.475s;
 }
+
+@media(max-width: 768px){
+  footer {
+    height: 100px;
+ width: 90%;
+ }
+}

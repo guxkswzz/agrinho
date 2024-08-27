@@ -18,6 +18,21 @@ header {
 header h1 {
     margin: 0;
 }
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; 
+}
+
+.header-content h1 {  
+  margin: 0;
+}
+
+.header-content .header-image {
+  width: 100px; 
+  height: auto; 
+}
 
 nav ul {
     list-style-type: none;

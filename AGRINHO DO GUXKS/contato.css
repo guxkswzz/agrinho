@@ -1,353 +1,283 @@
 
 body {
-    font-family: 'EA Sports Covers SC', sans-serif;
-    margin: 0;
-    background-image: url(https://st.depositphotos.com/1470939/3317/i/600/depositphotos_33174627-stock-photo-grunge-background-with-space-for.jpg);
-    background-size: 100%;
-    background-repeat: repeat;
+  font-family: 'EA Sports Covers SC', sans-serif;
+  margin: 0;
+  background-image: url(https://st.depositphotos.com/1470939/3317/i/600/depositphotos_33174627-stock-photo-grunge-background-with-space-for.jpg);
+  background-size: 100%;
+  background-repeat: repeat;
 }
 
 header {
-    background-color: #1d351d;
-    color: rgb(255, 255, 255);
-    padding: 20px;
-    text-align: center;
-}
-.img1 img{
-  float: left; 
-  position: fixed center;
-  margin-right: 100px; 
-  margin-bottom: 100px;
-  border-radius: 12px; 
-}
-header h1 {
-    margin: 0;
+  background-color: #1d351d;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
 }
 
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; 
+}
+
+.header-content h1 {  
+  margin: 0;
+}
+
+.header-content .header-image {
+  width: 100px; 
+  height: auto; 
+}
 nav ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+  display: inline;
+  margin-right: 20px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
 section {
-    padding: 20px;
+  padding: 20px;
 }
 
 section h2 {
-    color: #4CAF50;
+  color: #4CAF50;
 }
 
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    bottom: 0;
-    width: 100%;
-    position:fixed;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  left: 0;
 }
 
 .button {
-  position: relative;
-  overflow: hidden;
-  height: 3rem;
-  padding: 0 2rem;
-  border-radius: 1.5rem;
-  background: #1d351d;
-  background-size: 400%;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  font-family: 'EA Sports Covers SC', sans-serif;
+position: relative;
+overflow: hidden;
+height: 3rem;
+padding: 0 2rem;
+border-radius: 1.5rem;
+background: #1d351d;
+background-size: 400%;
+color: #fff;
+border: none;
+cursor: pointer;
+font-family: 'EA Sports Covers SC', sans-serif;
 }
 
 .button:hover::before {
-  transform: scaleX(1);
+transform: scaleX(1);
 }
 
 .button-content {
-  position: relative;
-  z-index: 1;
+position: relative;
+z-index: 1;
 }
 
 .button::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: scaleX(0);
-  transform-origin: 0 50%;
-  width: 100%;
-  height: inherit;
-  border-radius: inherit;
-  background: linear-gradient(
-    82.3deg,
-    rgba(0, 93, 0, 0) 10.8%,
-    rgba(0, 88, 0, 10) 94.3%
-  );
-  transition: all 0.475s;
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+transform: scaleX(0);
+transform-origin: 0 50%;
+width: 100%;
+height: inherit;
+border-radius: inherit;
+background: linear-gradient(
+  82.3deg,
+  rgba(0, 93, 0, 0) 10.8%,
+  rgba(0, 88, 0, 10) 94.3%
+);
+transition: all 0.475s;
 }
 
-.button1 {
-  position: relative;
-  overflow: hidden;
-  height: 3rem;
-  padding: 0 2rem;
-  border-radius: 1.5rem;
-  background: #1d351d;
-  background-size: 400%;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  font-family: 'EA Sports Covers SC', sans-serif;
+.button1, .button2, .button3 {
+position: relative;
+overflow: hidden;
+height: 3rem;
+padding: 0 2rem;
+border-radius: 1.5rem;
+background: #1d351d;
+background-size: 400%;
+color: #fff;
+border: none;
+cursor: pointer;
+font-family: 'EA Sports Covers SC', sans-serif;
 }
 
-.button1:hover::before {
-  transform: scaleX(1);
+.button1:hover::before, .button2:hover::before, .button3:hover::before {
+transform: scaleX(1);
 }
 
-.button1-content {
-  position: relative;
-  z-index: 1;
+.button1-content, .button2-content, .button3-content {
+position: relative;
+z-index: 1;
 }
 
-.button1::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: scaleX(0);
-  transform-origin: 0 50%;
-  width: 100%;
-  height: inherit;
-  border-radius: inherit;
-  background: linear-gradient(
-    82.3deg,
-    rgba(0, 93, 0, 0) 10.8%,
-    rgba(0, 88, 0, 10) 94.3%
-  );
-  transition: all 0.475s;
+.button1::before, .button2::before, .button3::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+transform: scaleX(0);
+transform-origin: 0 50%;
+width: 100%;
+height: inherit;
+border-radius: inherit;
+background: linear-gradient(
+  82.3deg,
+  rgba(0, 93, 0, 0) 10.8%,
+  rgba(0, 88, 0, 10) 94.3%
+);
+transition: all 0.475s;
 }
 
-/* From Uiverse.io by Madflows */ 
-.button2 {
-  position: relative;
-  overflow: hidden;
-  height: 3rem;
-  padding: 0 2rem;
-  border-radius: 1.5rem;
-  background: #1d351d;
-  background-size: 400%;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  font-family: 'EA Sports Covers SC', sans-serif;
-}
-
-.button2:hover::before {
-  transform: scaleX(1);
-}
-
-.button2-content {
-  position: relative;
-  z-index: 1;
-}
-
-.button2::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: scaleX(0);
-  transform-origin: 0 50%;
-  width: 100%;
-  height: inherit;
-  border-radius: inherit;
-  background: linear-gradient(
-    82.3deg,
-    rgba(0, 93, 0, 0) 10.8%,
-    rgba(0, 88, 0, 10) 94.3%
-  );
-  transition: all 0.475s;
-}
-
-
-/* From Uiverse.io by Madflows */ 
-.button3 {
-  position: relative;
-  overflow: hidden;
-  height: 3rem;
-  padding: 0 2rem;
-  border-radius: 1.5rem;
-  background: #1d351d;
-  background-size: 400%;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  font-family: 'EA Sports Covers SC', sans-serif;
-}
-
-.button3:hover::before {
-  transform: scaleX(1);
-}
-
-.button3-content {
-  position: relative;
-  z-index: 1;
-}
-
-.button3::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: scaleX(0);
-  transform-origin: 0 50%;
-  width: 100%;
-  height: inherit;
-  border-radius: inherit;
-  background: linear-gradient(
-    82.3deg,
-    rgba(0, 93, 0, 0) 10.8%,
-    rgba(0, 88, 0, 10) 94.3%
-  );
-  transition: all 0.475s;
-}
-
-/* From Uiverse.io by Praashoo7 */ 
 .main {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5em;
-  position:fixed;
-  margin-left: 1700px;
+display: flex;
+flex-direction: column;
+gap: 0.5em;
+position: relative;
+align-items: center; 
 }
 
-.up {
-  display: flex;
-  flex-direction: row;
-  gap: 0.3em;
+.up, .down {
+display: flex;
+flex-direction: row;
+gap: 0.5em;
+justify-content: center; 
 }
 
-.down {
-  display: flex;
-  flex-direction: row;
-  gap: 0.5em;
+.card1, .card2, .card3, .card4 {
+width: 90px;
+height: 90px;
+outline: none;
+border: none;
+background: rgb(32, 32, 32);
+box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+transition: .2s ease-in-out;
 }
+
 
 .card1 {
-  width: 90px;
-  height: 90px;
-  outline: none;
-  border: none;
-  background:rgb(32, 32, 32);
-  border-radius: 90px 5px 5px 5px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-  transition: .2s ease-in-out;
+border-radius: 90px 5px 5px 5px;
 }
 
 .instagram {
-  margin-top: 1.5em;
-  margin-left: 1.2em;
-  fill: #cc39a4;
+margin-top: 1.5em;
+fill: #cc39a4;
 }
 
 .card2 {
-  width: 90px;
-  height: 90px;
-  outline: none;
-  border: none;
-  background:rgb(32, 32, 32);
-  border-radius: 5px 90px 5px 5px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-  transition: .2s ease-in-out;
+border-radius: 5px 90px 5px 5px;
 }
 
 .linkedin {
-  margin-top: 1.5em;
-  margin-left: -0.9em;
-  fill: #0077b5;
+margin-top: 1.5em;
+fill: #0077b5;
 }
 
 .card3 {
-  width: 90px;
-  height: 90px;
-  outline: none;
-  border: none;
-  background: rgb(32, 32, 32);
-  border-radius: 5px 5px 5px 90px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-  transition: .2s ease-in-out;
+border-radius: 5px 5px 5px 90px;
 }
 
 .github {
-  margin-top: -.6em;
-  margin-left: 1.2em;
+margin-top: -.6em;
 }
 
 .card4 {
-  width: 90px;
-  height: 90px;
-  outline: none;
-  border: none;
-  background: rgb(32, 32, 32);
-  border-radius: 5px 5px 90px 5px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-  transition: .2s ease-in-out;
+border-radius: 5px 5px 90px 5px;
 }
 
 .discord {
-  margin-top: -.9em;
-  margin-left: -1.2em;
-  fill: #8c9eff;
+margin-top: -.9em;
+fill: #8c9eff;
 }
 
 .card1:hover {
-  cursor: pointer;
-  scale: 1.1;
-  background-color: #cc39a4;
+cursor: pointer;
+scale: 1.1;
+background-color: #cc39a4;
 }
 
 .card1:hover .instagram {
-  fill: white;
+fill: white;
 }
 
 .card2:hover {
-  cursor: pointer;
-  scale: 1.1;
-  background-color: #0077b5;
+cursor: pointer;
+scale: 1.1;
+background-color: #0077b5;
 }
 
 .card2:hover .linkedin {
-  fill: white;
+fill: white;
 }
 
 .card3:hover {
-  cursor: pointer;
-  scale: 1.1;
-  background-color: black;
+cursor: pointer;
+scale: 1.1;
+background-color: black;
 }
 
 .card3:hover .github {
-  fill: white;
+fill: white;
 }
 
 .card4:hover {
-  cursor: pointer;
-  scale: 1.1;
-  background-color: #8c9eff;
+cursor: pointer;
+scale: 1.1;
+background-color: #8c9eff;
 }
 
 .card4:hover .discord {
-  fill: white;
+fill: white;
+}
+
+@media (max-width: 768px) {
+footer {
+  height: 100px;
+  width: 90%;
+}
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 50px;
+  width: 200px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  background: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.up, .down {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
 }

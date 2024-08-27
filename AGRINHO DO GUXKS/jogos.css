@@ -12,11 +12,25 @@ header {
     color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
+    align-items: right;
 }
 
-header h1 {
-    margin: 0;
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; 
 }
+
+.header-content h1 {  
+  margin: 0;
+}
+
+.header-content .header-image {
+  width: 100px; 
+  height: auto; 
+}
+
 
 nav ul {
     list-style-type: none;
@@ -218,8 +232,116 @@ footer {
   transition: all 0.475s;
 }
 
-.jogo1 {
-  padding-left: 20%;
-  padding-bottom: 1000%;
+
+/* Container para centralizar e organizar as colunas */
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
+/* Coluna com as cartas */
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Estilo das cartas */
+.card {
+  width: 100%;
+  max-width: 290px;
+  height: 90px;
+  background: #353535;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  backdrop-filter: blur(10px);
+  transition: 0.5s ease-in-out;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.card a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.card .jogo1, .card .jogo2, .card .jogo3, .card .jogo4, .card .jogo5, .card .jogo6 {
+  width: 70px;
+  height: 70px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+.jogo1 {
+  background-image: url(https://pbs.twimg.com/profile_images/737585400810590208/fkOLhnja.jpg);
+}
+
+.jogo2 {
+  background-image: url(https://th.bing.com/th/id/OIP.1n_dRJLn91aILMSkd2yHDAHaEL?rs=1&pid=ImgDetMain);
+}
+
+.jogo3 {
+  background-image: url(https://th.bing.com/th/id/OIP.rctWNTLsB3F86wFlTIeb6AHaHa?rs=1&pid=ImgDetMain);
+}
+
+.jogo4 {
+  background-image: url(https://th.bing.com/th/id/OIP.HrcVDHynpfpbjx810QBZzgAAAA?w=400&h=400&rs=1&pid=ImgDetMain);
+}
+
+.jogo5 {
+  background-image: url(https://2.bp.blogspot.com/-9hCws7Nw7tk/UnWQWTLUaoI/AAAAAAAAB7M/9zuq6YnSWyc/s1600/313749_525703127475101_1856708457_n.jpg);
+}
+
+.jogo6 {
+  background-image: url(https://cdn2.steamgriddb.com/file/sgdb-cdn/icon_thumb/53b884037039b8150835431dd7ed95b0.png);
+}
+
+.textBox {
+  width: calc(100% - 90px);
+  margin-left: 10px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.textContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.span {
+  font-size: 12px;
+}
+
+.h1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.p {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
